@@ -1,0 +1,24 @@
+# markdownlint configuration
+# https://github.com/DavidAnson/markdownlint
+
+# Default state for all rules
+default: true
+
+# Line length
+MD013:
+  line_length: 120
+  heading_line_length: 80
+  code_block_line_length: 120
+
+# Multiple headings with same content — allow if not sequential
+MD024:
+  allow_different_nesting: true
+
+# Inline HTML — allow, used in some docs for formatting
+MD033: false
+
+# First line in file should be a top-level heading — relaxed
+MD041: false
+
+# bare URLs — allow
+MD034: false

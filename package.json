@@ -1,0 +1,11 @@
+{
+  "name": "xlabs-agent-skills",
+  "private": true,
+  "description": "xlabs AI infrastructure — production agents and skills",
+  "scripts": {
+    "lint:md": "markdownlint '**/*.md' --ignore node_modules --ignore .git"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.44.0"
+  }
+}
